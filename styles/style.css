@@ -1,0 +1,11 @@
+@import url(reset.css);
+body{
+    background-color: grey;
+}
+.app{
+    background-color: white;
+    width: 935px;
+    height: 2485px;
+}
+
+
