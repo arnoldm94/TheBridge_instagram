@@ -6,6 +6,37 @@ body{
     background-color: white;
     width: 935px;
     height: 2485px;
+    display: flex;
 }
+nav{
+   width: 20%;
+   
+}
+main{
+    background-color: blueviolet; 
+    width: 80%;
+}
+.letras{
+display: flex;
+padding: 20px 0px 10px 15px;
+
+}
+.nav{
+    padding: 20px 0px 10px 15px;
 
 
+}
+.nav_li{
+    display: flex;
+     padding: 8px 0px 8px 0px;
+     align-items: center;
+}
+.nav_li_img{
+    padding-right: 16px;
+}
+.nav_expand{
+    display: flex;
+    padding: 0px 0px 0px 15px;
+    padding-right: 16px;
+    align-items: center;
+}
