@@ -1,7 +1,10 @@
 @import url(reset.css);
 body{
     background-color: grey;
+    font-family: 'Playfair Display', serif;
+
 }
+b{font-weight: bold;}
 .app{
     background-color: rgb(248, 248, 248);
     width: 935px;
@@ -27,18 +30,32 @@ padding: 40px 0px 10px 15px;
 
 }
 .nav_li{
+    
     display: flex;
      padding: 15px 0px 8px 0px;
      align-items: center;
 }
+.nav_li:hover{
+background-color: grey;
+padding-left: 5px;
+padding-top: 4px;
+border-radius: 4px;
+}
 .nav_li_img{
     padding-right: 16px;
 }
+
 .nav_expand{
     display: flex;
     padding: 10px 0px 0px 15px;
     padding-right: 16px;
     align-items: center;
+}
+.nav_expand:hover{
+    background-color: grey;
+    padding-left: 10px;
+   padding-bottom: 5px;
+    border-radius: 4px;
 }
 .profile{
     display: flex;
@@ -49,6 +66,10 @@ padding: 40px 0px 10px 15px;
 
 padding-left: 71px ;
 padding-right: 101px;
+}
+header{
+    display: flex;
+    flex-direction: column;
 }
 .header{
 display: flex;
@@ -65,13 +86,30 @@ text-align: center;
     border-radius: 5px;
     background-color: rgba(0, 140, 255, 0.686);
     color: white;
-    font-size: small;
-    
+    font-size: 11px;
+    border: none;
+       
 }
 .tres{
     padding-top: 20px;
 }
 .follow_button:hover {color: black;
 background-color:rgba(56, 89, 238, 0.8);
-transform: scale(0.9);
-pointer-events:initial;}
+transform: scale(0.95);
+cursor: pointer;
+}
+.padding{
+    padding-right: 50px;
+}
+.paddingtop{padding-top: 10px;}
+.historias{
+    display: flex;
+    flex-direction: row;
+}
+.historia{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-left: 69px;
+   
+}
