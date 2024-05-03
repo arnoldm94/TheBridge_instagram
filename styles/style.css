@@ -7,7 +7,7 @@ body{
 b{font-weight: bold;}
 .app{
     background-color: rgb(248, 248, 248);
-    width: 935px;
+    width: 1190px;
     height: 2485px;
     display: flex;
 }
@@ -137,4 +137,27 @@ padding-right: 10px;
 }
 .change:hover{
     border-top: solid;
+}
+.galeria{
+    display: flex;
+    flex-direction: row;
+    
+}
+.publicacion{
+
+position: relative;
+height: 293px;
+width: 293px;
+padding-right: 28px;
+padding-bottom: 28px;
+}
+.mini {
+    position: absolute;
+    
+}
+.especial{
+   position: absolute;
+   z-index: 1;
+   padding: 15px 15px 0px 249px;
+   
 }
