@@ -171,14 +171,11 @@ padding-bottom: 28px;
 footer p{padding-bottom: 25px;}
 .down span{
    
-     padding-left: 28.5gipx; 
+     padding-left: 28.5px; 
 }
 .up span{
     padding: 1px 0px 12px 28px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-.pad{
-   
 }
