@@ -161,3 +161,23 @@ padding-bottom: 28px;
    padding: 15px 15px 0px 249px;
    
 }
+.footer{
+     height: 68px;
+    width: 662px;
+    margin-left: 50px;
+    color: rgba(132, 128, 128, 0.516);
+  }
+footer p{padding-bottom: 25px;}
+.down span{
+   
+     padding-left: 20px; 
+}
+.up span{
+    padding: 1px 0px 12px 19.5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.pad{
+   
+}
